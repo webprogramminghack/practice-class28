@@ -1,0 +1,40 @@
+.control {
+  position: relative;
+  width: rem-calc(260);
+  height: rem-calc(120);
+
+  .button {
+    position: absolute;
+    width: rem-calc(50);
+    height: rem-calc(50);
+    border-radius: 50%;
+    background-color: #944dff;
+    color: #fff;
+    font-size: rem-calc(32);
+    font-weight: bold;
+    text-align: center;
+    line-height: rem-calc(50);
+    cursor: pointer;
+
+    &.prevButton {
+      top: rem-calc(35);
+      left: rem-calc(20);
+    }
+
+    &.nextButton {
+      top: rem-calc(35);
+      right: rem-calc(20);
+    }
+  }
+
+  .emoji {
+    position: absolute;
+    width: rem-calc(80);
+    height: rem-calc(80);
+    top: rem-calc(20);
+    left: rem-calc(90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,23 @@
+.container {
+  $width: rem-calc(200);
+  width: $width;
+  height: rem-calc(200);
+  $padding: rem-calc(28);
+  padding: $padding;
+  border-radius: rem-calc(30);
+  background-color: #fff;
+
+  $contentWidth: $width - $padding * 2;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  $gap: rem-calc(12);
+  gap: $gap;
+
+  .item {
+    flex: 1 0 math.div($contentWidth - $gap * 2, 3);
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,20 @@
+.switch {
+  width: rem-calc(160);
+  height: rem-calc(100);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: rem-calc(50);
+  padding: rem-calc(10);
+  cursor: pointer;
+  display: flex;
+
+  &[data-isOn='true'] {
+    justify-content: flex-end;
+  }
+
+  .handle {
+    width: rem-calc(80);
+    height: rem-calc(80);
+    background-color: #fff;
+    border-radius: 50%;
+  }
+}

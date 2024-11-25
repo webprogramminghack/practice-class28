@@ -1,0 +1,14 @@
+.refresh {
+  padding: rem-calc(10);
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: rem-calc(40);
+  height: rem-calc(40);
+  top: rem-calc(10);
+  right: rem-calc(10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

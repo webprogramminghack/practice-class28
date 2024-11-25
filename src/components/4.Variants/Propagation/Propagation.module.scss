@@ -1,0 +1,17 @@
+.parent {
+  width: rem-calc(150);
+  height: rem-calc(150);
+  border-radius: rem-calc(30);
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .child {
+    width: rem-calc(60);
+    height: rem-calc(60);
+    border-radius: rem-calc(10);
+    background-color: #fa2;
+  }
+}

@@ -1,0 +1,26 @@
+.parent {
+  background: #fff;
+  border-radius: 50%;
+  padding: rem-calc(10);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.big {
+    width: rem-calc(300);
+    height: rem-calc(300);
+  }
+
+  &.small {
+    width: rem-calc(100);
+    height: rem-calc(100);
+  }
+
+  .child {
+    width: rem-calc(40);
+    height: rem-calc(40);
+    background: #f107a3;
+    border-radius: 50%;
+  }
+}

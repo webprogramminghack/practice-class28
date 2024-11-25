@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: rem-calc(20);
+  width: rem-calc(200);
+  height: rem-calc(200);
+  padding: rem-calc(28);
+  border-radius: rem-calc(30);
+  background-color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+
+  .item {
+    flex: 1;
+    height: rem-calc(30);
+    border-radius: rem-calc(15);
+    background-color: #fa2;
+  }
+}

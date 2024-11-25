@@ -1,0 +1,30 @@
+.columns {
+  margin: 0 auto;
+  margin-top: rem-calc(200);
+  display: flex;
+  gap: rem-calc(40);
+  width: rem-calc(600);
+
+  .column {
+    flex: 1;
+  }
+
+  .columnTitle {
+    color: #fff;
+    text-align: center;
+    font-size: rem-calc(20);
+  }
+
+  .columnItems {
+    margin-top: rem-calc(20);
+    display: flex;
+    flex-direction: column;
+    gap: rem-calc(12);
+
+    .columnItem {
+      height: rem-calc(40);
+      background-color: orange;
+      border-radius: rem-calc(10);
+    }
+  }
+}
